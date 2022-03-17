@@ -1,0 +1,144 @@
+html {
+    height: 100px;
+  }
+  
+  body {
+    font-family: "Fredoka", sans-serif;
+  }
+  .container {
+    min-height: 100vh;
+    /* margin: 20px; */
+    /* border: 2px solid red; */
+    /* padding: 0%; */
+    display: flex;
+    background-color: #dbdbdb;
+  }
+  .left {
+    height: 95vh;
+    width: 25%;
+    position: sticky;
+    top: 2%;
+    /* border: 2px solid blue; */
+    margin: 10px;
+    background-color: #bebebe;
+    transition: 1s;
+  }
+  .left:hover {
+    transform: scale(1.08);
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  .right {
+    flex: 60%;
+    /* border: 1px solid green; */
+    margin: 10px;
+  }
+  
+  #image {
+    height: 35%;
+    width: 65%;
+    margin: 50px;
+    border: solid ghostwhite;
+    border-radius: 60%;
+    background-image: url(./image/WhatsApp\ Image\ 2022-03-15\ at\ 10.52.14\ PM.jpeg);
+    background-size: 105%;
+    background-repeat: no-repeat;
+  }
+  
+  #name {
+    margin-top: 5%;
+    font-size: large;
+    text-align: center;
+    color: black;
+  }
+  #name2 {
+    padding: 0%;
+    margin-top: 0%;
+    font-size: small;
+    text-align: center;
+  }
+  
+  .left ol li {
+    list-style: none;
+    padding: 10px;
+    transition: 1s;
+  }
+  
+  #personalInfo {
+    /* border: 2px solid red; */
+    padding-top: 0%;
+    margin-left: 25px;
+  }
+  #personalInfo p {
+    margin: 0%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .socialMedia ol li {
+    display: inline;
+    transition: 1s;
+  }
+  .socialMedia ol {
+    margin: 7px;
+    padding-top: 0%;
+    padding-left: 60px;
+    /* border: 2px solid green; */
+  }
+  .socialMedia {
+    margin-top: 0%;
+    /* border: 2px solid red; */
+  }
+  
+  .socialMedia ol li:hover {
+    box-shadow: 0px 2px 1px black;
+    /* background-color: white; */
+  }
+  .aboutMe {
+    padding-left: 17px;
+  }
+  .education {
+    padding-left: 17px;
+  }
+  
+  .bar {
+    position: relative;
+    width: 300px;
+    height: 20px;
+    background-color: #9cbab4;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress_fill {
+    width: 60%;
+    height: 100%;
+    background-color: #387e48;
+    animation: fill 5s;
+  }
+  /* #387e48 #bebebe*/
+  .Progress_text {
+    position: absolute;
+    top: 0%;
+    right: 5px;
+  }
+  @keyframes fill {
+    from {
+      width: 0%;
+    }
+    to {
+      with: 100%;
+    }
+  }
+  .progress_bars ol {
+    list-style: none;
+  }
+  .progress_bars ol li {
+    margin-top: 15px;
+  }
+  
+  /* 
+  .liHover{
+    transform: scale(1.3);
+    /* box-shadow: 2px 2px 2px black; */
+  
